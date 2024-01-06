@@ -13,6 +13,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="maven-web" />
         </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="maven-java-1.0.jar">
+            <element id="module-output" name="maven-java" />
+          </element>
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/maven-web/target/maven-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
