@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MavenSelf.iml" filepath="$PROJECT_DIR$/MavenSelf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyFirstMaven.iml" filepath="$PROJECT_DIR$/MyFirstMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-java.iml" filepath="$PROJECT_DIR$/maven-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-web.iml" filepath="$PROJECT_DIR$/maven-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-web-idea.iml" filepath="$PROJECT_DIR$/maven-web-idea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-web-plugin.iml" filepath="$PROJECT_DIR$/maven-web-plugin.iml" />
     </modules>
   </component>
 </project>

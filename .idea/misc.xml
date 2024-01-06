@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/maven-web" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-web-idea" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-web-plugin" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/MyFirstMaven/pom.xml" />
+        <option value="$PROJECT_DIR$/MavenJava/pom.xml" />
+        <option value="$PROJECT_DIR$/MavenWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/MavenWebPlugin/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-java/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-web/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-web-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-web-idea/pom.xml" />
       </list>
     </option>
   </component>
