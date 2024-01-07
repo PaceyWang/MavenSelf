@@ -6,7 +6,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!--Maven工程的坐标-->
+    <!--组id-->
     <groupId>com.pacey.maven</groupId>
+    <!--模块id-->
     <artifactId>maven-java</artifactId>
     <!--<version>1.0-SNAPSHOT</version>-->
     <!--  这就是正式版不是快照  -->
@@ -17,9 +19,16 @@
 
 
     <properties>
+        <!--JDK版本号-->
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <!--构建过程中的编码格式-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!--自定义属性-->
+        <druid.version>1.2.8</druid.version>
+        <!--统一修改系列依赖，方便管理，统一管理版本号(我们只能修改版本号)-->
+        <spring.version>6.0.11</spring.version>
     </properties>
 
     <!--添加远程依赖，自动下载并添加依赖的依赖(刷新) https://mvnrepository.com -->
@@ -29,6 +38,7 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.9.2</version>
+            <!--依赖范围，表示只能在test下使用(不建议修改)-->
             <scope>test</scope>
         </dependency>
 
@@ -39,6 +49,37 @@
             <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <!--引用properties声明版本 -->
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!--Spring依赖-->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+
+
 
 
     </dependencies>
