@@ -15,12 +15,27 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.pacey.maven</groupId>
+            <artifactId>maven-provider</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.2.7</version>
         </dependency>
+
+        <!--测试声明和短路那个优先-->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.20</version>
+        </dependency>
+
     </dependencies>
 
 </project>
