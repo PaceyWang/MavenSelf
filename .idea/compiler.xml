@@ -9,9 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="maven-java" />
         <module name="maven-web" />
+        <module name="maven-web-plugin" />
+        <module name="maven-provider2" />
         <module name="maven-provider" />
         <module name="maven-dependant" />
-        <module name="maven-web-plugin" />
         <module name="maven-web-idea" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="maven-dependant" target="17" />
       <module name="maven-java" target="17" />
       <module name="maven-provider" target="17" />
+      <module name="maven-provider2" target="17" />
       <module name="maven-web" target="17" />
       <module name="maven-web-idea" target="17" />
       <module name="maven-web-plugin" target="17" />
