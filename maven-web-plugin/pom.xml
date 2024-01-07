@@ -8,10 +8,36 @@
     <artifactId>maven-web-plugin</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <argLine>-Dfile.encoding=UTF-8</argLine>
     </properties>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>com.pacey.maven</groupId>
+            <artifactId>maven-java</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+    </dependencies>
+
+    <!--从私服仓库中下载依赖-->
+    <repositories>
+        <repository>
+            <id>nexus-repository</id>
+            <name>Nexus Release</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
 </project>
