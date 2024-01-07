@@ -21,7 +21,7 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.2.8</version>
-            <!--终止依赖传递-->
+            <!--终止依赖传递(当前依赖不参与传递)-->
             <!--<optional>true</optional>-->
         </dependency>
 
