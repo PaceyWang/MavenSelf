@@ -7,18 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="maven-java" />
         <module name="maven-web" />
         <module name="maven-son" />
+        <module name="common-service" />
         <module name="maven-web-plugin" />
         <module name="maven-provider2" />
+        <module name="user-service" />
+        <module name="maven-java" />
         <module name="maven-provider" />
         <module name="maven-dependant" />
         <module name="maven-son2" />
+        <module name="order-service" />
         <module name="maven-web-idea" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-service" target="17" />
       <module name="maven-dependant" target="17" />
       <module name="maven-java" target="17" />
       <module name="maven-parent" target="17" />
@@ -29,6 +33,9 @@
       <module name="maven-web" target="17" />
       <module name="maven-web-idea" target="17" />
       <module name="maven-web-plugin" target="17" />
+      <module name="micro-shop" target="17" />
+      <module name="order-service" target="17" />
+      <module name="user-service" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

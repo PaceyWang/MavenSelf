@@ -4,6 +4,8 @@
     <file type="web" url="file://$PROJECT_DIR$/maven-web" />
     <file type="web" url="file://$PROJECT_DIR$/maven-web-idea" />
     <file type="web" url="file://$PROJECT_DIR$/maven-web-plugin" />
+    <file type="web" url="file://$PROJECT_DIR$/micro-shop/order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/micro-shop/user-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -22,6 +24,7 @@
         <option value="$PROJECT_DIR$/maven-dependant/pom.xml" />
         <option value="$PROJECT_DIR$/maven-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/maven-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-shop/pom.xml" />
       </list>
     </option>
   </component>

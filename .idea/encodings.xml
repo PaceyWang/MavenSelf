@@ -21,5 +21,13 @@
     <file url="file://$PROJECT_DIR$/maven-web-plugin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/common-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/common-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-shop/user-service/src/main/resources" charset="UTF-8" />
   </component>
 </project>

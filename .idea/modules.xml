@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MavenSelf.iml" filepath="$PROJECT_DIR$/MavenSelf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-service.iml" filepath="$PROJECT_DIR$/common-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-dependant.iml" filepath="$PROJECT_DIR$/maven-dependant.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-java.iml" filepath="$PROJECT_DIR$/maven-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-parent.iml" filepath="$PROJECT_DIR$/maven-parent.iml" />
@@ -13,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/maven-web.iml" filepath="$PROJECT_DIR$/maven-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-web-idea.iml" filepath="$PROJECT_DIR$/maven-web-idea.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-web-plugin.iml" filepath="$PROJECT_DIR$/maven-web-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-shop.iml" filepath="$PROJECT_DIR$/micro-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service.iml" filepath="$PROJECT_DIR$/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service.iml" filepath="$PROJECT_DIR$/user-service.iml" />
     </modules>
   </component>
 </project>
