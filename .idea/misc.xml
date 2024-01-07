@@ -16,6 +16,10 @@
         <option value="$PROJECT_DIR$/maven-web/pom.xml" />
         <option value="$PROJECT_DIR$/maven-web-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/maven-web-idea/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-depended/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-provided/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-dependant/pom.xml" />
       </list>
     </option>
   </component>
