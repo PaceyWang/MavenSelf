@@ -47,12 +47,13 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
         <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.17.1</version>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
+
 
 
 
@@ -69,14 +70,6 @@
     <build>
         <!--自定义打包名称，后缀不要丢-->
         <finalName>maven-web-1.0.war</finalName>
-        <!-- jdk17 和 war包版本插件不匹配 -->
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.2</version>
-            </plugin>
-        </plugins>
 
         <!--设置要打包的资源位置-->
         <resources>
@@ -89,6 +82,30 @@
                 </includes>
             </resource>
         </resources>
+
+        <!-- jdk17 和 war包版本插件不匹配 -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+
+            <!--Tomcat插件，可以直接在Maven插件中启动Tomcat服务器，不需要再配置-->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <port>8438</port>
+                    <path>/</path>
+                    <!--解决Tomcat7获取请求参数的乱码问题-->
+                    <uriEncoding>UTF-8</uriEncoding>
+                    <server>tomcat7</server>
+                </configuration>
+            </plugin>
+        </plugins>
+
     </build>
 
 </project>

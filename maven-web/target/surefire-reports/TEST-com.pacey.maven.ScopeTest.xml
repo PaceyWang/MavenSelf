@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.pacey.maven.ScopeTest" time="0.804" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.pacey.maven.ScopeTest" time="0.208" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,6 +63,6 @@
     <property name="java.vendor.version" value="Oracle GraalVM 17.0.8+9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.pacey.maven.ScopeTest" name="com.pacey.maven.ScopeTest.testDruidScope" time="0.796"/>
-  <testcase classname="com.pacey.maven.ScopeTest" name="com.pacey.maven.ScopeTest.testServletApiScope" time="0.008"/>
+  <testcase classname="com.pacey.maven.ScopeTest" name="com.pacey.maven.ScopeTest.testDruidScope" time="0.183"/>
+  <testcase classname="com.pacey.maven.ScopeTest" name="com.pacey.maven.ScopeTest.testServletApiScope" time="0.025"/>
 </testsuite>
