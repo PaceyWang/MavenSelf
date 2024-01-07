@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pacey.maven</groupId>
+    <artifactId>maven-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--父工程不需要写任何Java代码(可以直接删除父工程的src目录)，也不需要参与打包，因此打包方式为pom-->
+    <packaging>pom</packaging>
+    <!--父工程中自动聚合了子工程的路径(配置文件的路径)-->
+    <modules>
+        <module>maven-son</module>
+        <module>../maven-son2</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--子工程会默认引入父工程dependencies下的所有依赖-->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!--依赖管理，子工程可以选择性继承依赖，只需要写GA即可-->
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.2.8</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.buession.springboot/buession-springboot-boot -->
+            <dependency>
+                <groupId>com.buession.springboot</groupId>
+                <artifactId>buession-springboot-boot</artifactId>
+                <version>2.3.2</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>

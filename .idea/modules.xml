@@ -5,8 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/MavenSelf.iml" filepath="$PROJECT_DIR$/MavenSelf.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-dependant.iml" filepath="$PROJECT_DIR$/maven-dependant.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-java.iml" filepath="$PROJECT_DIR$/maven-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-parent.iml" filepath="$PROJECT_DIR$/maven-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-provider.iml" filepath="$PROJECT_DIR$/maven-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-provider2.iml" filepath="$PROJECT_DIR$/maven-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-son.iml" filepath="$PROJECT_DIR$/maven-son.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-son2.iml" filepath="$PROJECT_DIR$/maven-son2.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-web.iml" filepath="$PROJECT_DIR$/maven-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-web-idea.iml" filepath="$PROJECT_DIR$/maven-web-idea.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-web-plugin.iml" filepath="$PROJECT_DIR$/maven-web-plugin.iml" />

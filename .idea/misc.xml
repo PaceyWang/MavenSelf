@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/maven-provider/pom.xml" />
         <option value="$PROJECT_DIR$/maven-dependant/pom.xml" />
         <option value="$PROJECT_DIR$/maven-provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-parent/pom.xml" />
       </list>
     </option>
   </component>
